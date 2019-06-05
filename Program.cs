@@ -2,53 +2,23 @@
 
 namespace helloWorld
 {
-    public class DrinksMachine
+    class Program
     {
-        private int age;
-        private string make;
-        // A get property accessor is used to return the property value
-        // A set accessor is used to assign a new value. (Omitting this property makes it read only)
-        // A value keyword is used to define the "value" being assigned by the set accessor.
-        public int Age
+        static void Main(string[] args)
         {
-            get
-            {
-                return age;
-            }
-            set
-            {
-                age = value;
-            }
+            var myCar = new Car();
+            myCar.Color="white";
+            myCar.Year=2007;
+            myCar.Mileage=123492;
+            // Console.WriteLine("Hello World!");            
+            // Output to the console window
+            Console.WriteLine($"This car is painted {myCar.Color}, was built in {myCar.Year}, and has {myCar.Mileage} miles on it.");
         }
-        public string Make
-        {
-            get
-            {
-                return make;
-            }
-            set
-            { 
-                make = value;
-            }
-        }
-        
-        // auto-implemented property
-        public string Model { get; set; }
+    }
 
-        public DrinksMachine(int age)
-        {
-            this.Age = age;
-        }
-        public DrinksMachine(string make, string model)
-        {
-            this.Make = make;
-            this.Model = model;
-        }
-        public DrinksMachine(int age, string make, string model)
-        {
-            this.Age = age;
-            this.Make = make;
-            this.Model = model;
-        }
+    class Car{
+        public string Color { get; set; }
+        public int Year { get; set; }
+        public int Mileage { get; set; }
     }
 }
