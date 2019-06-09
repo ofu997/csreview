@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/oliver/Documents/projects/helloWorld/helloWorld.csproj",
-      "projectName": "helloWorld",
-      "projectPath": "/home/oliver/Documents/projects/helloWorld/helloWorld.csproj",
+      "projectUniqueName": "/home/oliver/Documents/projects/csreview/csreview.csproj",
+      "projectName": "csreview",
+      "projectPath": "/home/oliver/Documents/projects/csreview/csreview.csproj",
       "packagesPath": "/home/oliver/.nuget/packages/",
-      "outputPath": "/home/oliver/Documents/projects/helloWorld/obj/",
+      "outputPath": "/home/oliver/Documents/projects/csreview/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
