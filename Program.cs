@@ -6,6 +6,20 @@ namespace csreview
     {
         static void Main(string[] args)
         {
+        // Instantiate a UProgram object called Information Technology.
+        // Instantiate three Student objects.
+        // Instantiate a Course object called Programming with C#.
+        // Add your three students to this Course object.
+        // Instantiate at least one Teacher object.
+        // Add that Teacher object to your Course object.
+        // Instantiate a Degree object, such as Bachelor.
+        // Add your Course object to the Degree object.
+        // Instantiate a UProgram object called Information Technology.
+        // Add the Degree object to the UProgram object.
+        // Using Console.WriteLine statements, output the following information to the console window:
+        // The name of the program and the degree it contains
+        // The name of the course in the degree
+        // The count of the number of students in the course.
             var myCar = new Car();
             myCar.Color="white";
             myCar.Year=2007;
@@ -18,42 +32,6 @@ namespace csreview
         }
     }
 
-    class Car
-    {
-        public string Color { get; set; }
-        public int Year { get; set; }
-        public int Mileage { get; set; }
-        private static int instances = 0;
 
-        // if we have constructors WITH parameters, we also need one without
-        // public Car(){}
-
-        public Car (string color, int year)
-        {
-            this.Color = color;
-            this.Year = year; 
-            instances++;
-        }
-
-        public Car (int year, int mileage)
-        {
-            this.Year = year;
-            this.Mileage = mileage; 
-            instances++;
-            // Console.WriteLine($"There are {Car.CountCars()} cars (2 params)");            
-        }
-
-
-        public Car()
-        {
-            instances++;
-            // Console.WriteLine($"There are {Car.CountCars()} cars");
-        }
-
-        public static int CountCars()
-        {
-            return instances;
-        }
-    }
 
 }

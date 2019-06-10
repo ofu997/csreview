@@ -1,0 +1,9 @@
+/home/oliver/Documents/projects/csreview/bin/Debug/netstandard2.0/csreview.deps.json
+/home/oliver/Documents/projects/csreview/bin/Debug/netstandard2.0/csreview.dll
+/home/oliver/Documents/projects/csreview/bin/Debug/netstandard2.0/csreview.pdb
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.csprojAssemblyReference.cache
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.csproj.CoreCompileInputs.cache
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.AssemblyInfoInputs.cache
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.AssemblyInfo.cs
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.dll
+/home/oliver/Documents/projects/csreview/obj/Debug/netstandard2.0/csreview.pdb
