@@ -1,17 +1,21 @@
 using System;
 using System.Collections.Generic;
-
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace csreview
 {
     class UProgram
     {
-        public string name;
-        private static int instances = 0;        
+        public string name {get;set;}
+        public static int instances = 0;        
         public List<Degree> degrees;
         public int numberOfStudents=Student.instances;
-        public UProgram()
+        public UProgram(string _name)
         {
+            // can't be name = this.name. Should be: this.name = name;
+            name = _name;
             instances = instances + 1;
         }
     }
