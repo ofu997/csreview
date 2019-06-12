@@ -11,9 +11,8 @@ namespace csreview
         public string teacher;
         public static int instances=0;
 
-        public Course(string name, List<Student> studentList)
+        public Course(string name)
         {
-
             instances = instances +1;
         }
     }
