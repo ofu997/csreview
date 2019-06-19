@@ -14,10 +14,28 @@ namespace csreview
         int instanceProgram = UProgram.instances;
         Console.WriteLine("instances: {0}", instanceProgram);
         // Instantiate three Student objects.
+        Student student1 = new Student("Abbi");
+        Student student2 = new Student("Blake");
+        Student student3 = new Student("Cari");
+        Console.WriteLine("student names: {0}, {1}, {2}", student1.name, student2.name, student3.name);
+
         // Instantiate a Course object called Programming with C#.
+        Course cSharpCourse = new Course("Programming with C#");
+        Console.WriteLine("course name: {0}", cSharpCourse.name);
         // Add your three students to this Course object.
+        cSharpCourse.addStudent(student1);
+        cSharpCourse.addStudent(student2);
+        cSharpCourse.addStudent(student3);
+
+        Console.WriteLine("students in C# course: ");
+        foreach(Student i in cSharpCourse.studentList){
+            Console.WriteLine("{0}\t", i.name);
+        };
         // Instantiate at least one Teacher object.
+        Teacher teacher1 = new Teacher("Mr. Robotik");
         // Add that Teacher object to your Course object.
+        cSharpCourse.teacher = teacher1;
+        Console.WriteLine("C# teacher: {0}", cSharpCourse.teacher.name);
         // Instantiate a Degree object, such as Bachelor.
         // Add your Course object to the Degree object.
         // Instantiate a UProgram object called Information Technology.
