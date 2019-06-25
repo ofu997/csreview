@@ -23,9 +23,9 @@ namespace csreview
         Course cSharpCourse = new Course("Programming with C#");
         Console.WriteLine("course name: {0}", cSharpCourse.name);
         // Add your three students to this Course object.
-        cSharpCourse.addStudent(student1);
-        cSharpCourse.addStudent(student2);
-        cSharpCourse.addStudent(student3);
+        cSharpCourse.AddStudent(student1);
+        cSharpCourse.AddStudent(student2);
+        cSharpCourse.AddStudent(student3);
 
         Console.WriteLine("students in C# course: ");
         foreach(Student i in cSharpCourse.studentList){
@@ -37,9 +37,14 @@ namespace csreview
         cSharpCourse.teacher = teacher1;
         Console.WriteLine("C# teacher: {0}", cSharpCourse.teacher.name);
         // Instantiate a Degree object, such as Bachelor.
+        Degree myDegree = new Degree("Computer Science", "Bachelor of Science");
         // Add your Course object to the Degree object.
+        myDegree.addCourse(cSharpCourse);
+        foreach(Course c in myDegree.courses){
+            Console.WriteLine("Courses in myDegree: {0}\t", c.name);
+        }
         // Instantiate a UProgram object called Information Technology.
-        // Add the Degree object to the UProgram object.
+        // Add the Degree object to the UProgram object.//
         // Using Console.WriteLine statements, output the following information to the console window:
         // The name of the program and the degree it contains
         // The name of the course in the degree

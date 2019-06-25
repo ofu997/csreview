@@ -17,7 +17,7 @@ namespace csreview
             instances = instances +1;
         }
 
-        public List<Student> addStudent(Student _student)
+        public List<Student> AddStudent(Student _student)
         {
             studentList.Add(_student);
             return studentList;
