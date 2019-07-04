@@ -14,8 +14,8 @@ namespace csreview
 
         public Degree(string name, string type)
         {
-            name = this.name;
-            type = this.type;
+            this.name = name;
+            this.type = type;
             instances = instances +1;
         }
 
