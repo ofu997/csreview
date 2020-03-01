@@ -144,6 +144,9 @@ namespace csreview
                     askLoop=false;
                 }
             }
+            Console.WriteLine("Which nth number of the Fibonacci sequence do you want to see?");
+            String fibInput=Console.ReadLine();
+            Fibonacci.FibCalculate(int.Parse(fibInput));
         } // main
     } // Program
 } // namespace
