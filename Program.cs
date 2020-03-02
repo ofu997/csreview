@@ -16,7 +16,8 @@ namespace csreview
                 {
                     case "f":
                     {
-                        Fibonacci.FibCalculate();
+                        int result=Fibonacci.FibRecursive();
+                        Console.WriteLine(result.ToString());
                         break;
                     }
                     case "s":
