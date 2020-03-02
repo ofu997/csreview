@@ -41,20 +41,6 @@ namespace csreview
 
         } // determine if prime
 
-        private static void ListPrime()
-        {
-            Console.WriteLine("pick limit of primes");
-            string limit = Console.ReadLine();
-            int intLimit = int.Parse(limit);
-            int top, bottom;
-            
-            for (top = 2; top < intLimit; top++) {
-                // checks if top is divisible up to its square root
-                for (bottom = 2; bottom <= (top / bottom); bottom++)
-                if ((top % bottom) == 0) break; // if factor found, not prime
-                if (bottom > (top / bottom)) Console.WriteLine("{0} is prime", top);
-            }
-        }
         public static void AskAgain()
         {
             bool askLoop = true;
@@ -77,5 +63,22 @@ namespace csreview
                 }
             }   
         }
+
+        private static void ListPrime()
+        {
+            Console.WriteLine("pick limit of primes");
+            string limit = Console.ReadLine();
+            int intLimit = int.Parse(limit);
+            int top, bottom;
+            
+            for (top = 2; top < intLimit; top++) {
+                // checks if top is divisible up to its square root
+                for (bottom = 2; bottom <= (top / bottom); bottom++)
+                    if ((top % bottom) == 0) 
+                        break; // if factor found, not prime
+                    if (bottom > (top / bottom)) 
+                        Console.WriteLine("{0} is prime", top);
+            }
+        }        
     } // class Prime
 } //namespace
