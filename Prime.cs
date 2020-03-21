@@ -79,6 +79,14 @@ namespace csreview
                     if (bottom > (top / bottom)) 
                         Console.WriteLine("{0} is prime", top);
             }
-        }        
+        }     
+        static int simpleArraySum(int[] ar) {
+            int sum = 0;
+            foreach(int item in ar)
+            {  
+                sum += item; 
+            }
+            return sum; 
+        }      
     } // class Prime
 } //namespace

@@ -36,7 +36,7 @@ namespace csreview
                         break;
                     }
                 }
-                Console.WriteLine("another round?");
+                Console.WriteLine("another round? (y/n)");
                 string playagainanswer=Console.ReadLine();
                 if(playagainanswer=="y")
                 {
