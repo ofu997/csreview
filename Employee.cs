@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Threading;
 namespace csreview
 {
-  class Employee
+  abstract class Employee
   {
+    // abstract classes can't be instantiated.  
+
+    // Creates integer variable called "employeeCount" and assigns value to 1
+    private static int employeeCount = 1;    
     private string employeeName;
     private double employeeBaseSalary;
     private int employeeId;
-
-    // Creates integer variable called "employeeCount" and assigns value to 1
-    private static int employeeCount = 1;
-
     // Public properties
     public string Name
     {
@@ -79,9 +79,7 @@ namespace csreview
 
     // This method returns the employee's ID and Name and confirms that the employee is in the system
     // virtual: can be overridden
-    public virtual String employeeStatus()
-    {
-      return toString() + " is in the the company's system";
-    }
+    // abstract: forces sub classes to implement, while base method body is undefined
+    public abstract String employeeStatus();
   } // class Employee
 }

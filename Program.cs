@@ -10,7 +10,7 @@ namespace csreview
             bool playagain=true;
             while(playagain)
             {
-                Console.WriteLine("Fibonacci, prime, or school program?(f/p/s)");
+                Console.WriteLine("Fibonacci, prime, school, or interface program?(f/p/s/i)");
                 string answer = Console.ReadLine();
                 switch(answer)
                 {
@@ -30,6 +30,11 @@ namespace csreview
                         Prime.DetermineIfPrime();
                         Prime.AskAgain();
                         break;
+                    }
+                    case "i":
+                    {
+                        ImplementInterface.EmployeeSimulation();
+                        break; 
                     }
                     default :
                     {
