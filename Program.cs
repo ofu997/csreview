@@ -10,7 +10,7 @@ namespace csreview
             bool playagain=true;
             while(playagain)
             {
-                Console.WriteLine("Fibonacci, prime, school, or interface program?(f/p/s/i)");
+                Console.WriteLine("Fibonacci, prime, school, garbage collection, or interface program?(f/p/s/i/gc)");
                 string answer = Console.ReadLine();
                 switch(answer)
                 {
@@ -35,6 +35,11 @@ namespace csreview
                     {
                         ImplementInterface.EmployeeSimulation();
                         break; 
+                    }
+                    case "gc":
+                    {
+                        GarbageCollector.CollectGarbage(); 
+                        break;
                     }
                     default :
                     {
