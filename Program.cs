@@ -41,6 +41,11 @@ namespace csreview
                         GarbageCollector.CollectGarbage(); 
                         break;
                     }
+                    case "bubblesort":
+                    {
+                        BubbleSort.SortBubble();
+                        break;
+                    }
                     default :
                     {
                         break;
