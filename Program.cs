@@ -41,10 +41,15 @@ namespace csreview
                         GarbageCollector.CollectGarbage(); 
                         break;
                     }
-                    case "bubblesort":
+                    case "bsort":
                     {
-                        BubbleSort.SortBubble();
+                        Algos.SortBubble();
                         break;
+                    }
+                    case "isort":
+                    {
+                        Algos.InsertionSort();
+                        break; 
                     }
                     default :
                     {
