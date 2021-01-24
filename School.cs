@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace csreview
+namespace CSharpIntermediate
 {
     class School
     {

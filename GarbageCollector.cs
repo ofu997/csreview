@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.IO;
 
-namespace csreview
+namespace CSharpIntermediate
 {
   class GarbageCollector
   {

@@ -1,6 +1,6 @@
 using System;
 
-namespace csreview
+namespace CSharpIntermediate
 {
     class Fibonacci
     {

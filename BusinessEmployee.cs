@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-namespace csreview
+namespace CSharpIntermediate
 {
   class BusinessEmployee : Employee
   {

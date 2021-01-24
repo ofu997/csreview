@@ -10,3 +10,9 @@
 /home/oliver/Documents/projects/csreview/obj/Debug/netcoreapp2.2/csreview.pdb
 /home/oliver/Documents/projects/csreview/obj/Debug/netcoreapp2.2/csreview.csproj.CoreCompileInputs.cache
 /home/oliver/Documents/projects/csreview/obj/Debug/netcoreapp2.2/csreview.genruntimeconfig.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.csprojAssemblyReference.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.AssemblyInfoInputs.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.AssemblyInfo.cs
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.csproj.CoreCompileInputs.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.dll
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\netcoreapp2.2\csreview.pdb

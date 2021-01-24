@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 // using csreview.Student;
 
-namespace csreview
+namespace CSharpIntermediate
 {
     class Course
     {

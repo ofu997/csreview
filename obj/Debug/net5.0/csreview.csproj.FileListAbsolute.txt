@@ -1,0 +1,16 @@
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.csprojAssemblyReference.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.AssemblyInfoInputs.cache
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.AssemblyInfo.cs
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.csproj.CoreCompileInputs.cache
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.exe
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.deps.json
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.runtimeconfig.json
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.runtimeconfig.dev.json
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.dll
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\ref\csreview.dll
+C:\Users\ofu23\Documents\Projects\csreview\bin\Debug\net5.0\csreview.pdb
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.dll
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\ref\csreview.dll
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.pdb
+C:\Users\ofu23\Documents\Projects\csreview\obj\Debug\net5.0\csreview.genruntimeconfig.cache

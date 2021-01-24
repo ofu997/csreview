@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6OBrz4uldr240e2wHHENZhrXx4/j1zVd9dB8Msf9ngJ6Flfe0Ot6KTV/f3Djj01viLzTkqx9mvqhYphy8cBaFg==",
+  "dgSpecHash": "B0LlkaQvsX5s9c6QQf6FPYqNI6pALEGAuSB5LhJMKogfO4Dp3lVX8LC/1+E7HMLKFRyzYMyDyhwlqHD39ITR5Q==",
   "success": true,
-  "projectFilePath": "/home/oliver/Documents/projects/csreview/csreview.csproj",
-  "expectedPackageFiles": [
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.2.0/microsoft.netcore.app.2.2.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnetapphost/2.2.0/microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostpolicy/2.2.0/microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostresolver/2.2.0/microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/2.2.0/microsoft.netcore.platforms.2.2.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/2.0.0/microsoft.netcore.targets.2.0.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\csreview.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

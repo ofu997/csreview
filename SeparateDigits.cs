@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-namespace csreview
+namespace CSharpIntermediate
 {
   class SeparateDigits{
     static void separateDigits(int n)
