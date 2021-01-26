@@ -5,7 +5,14 @@ namespace CSharpIntermediate
 {
   public class Person
   {
-    public DateTime Birthdate { get; set; }
+    public string Name { get; set; }
+    // read-only birthdate
+    public DateTime Birthdate { get; private set; }
+
+    public Person(DateTime birthdate) 
+    {
+      this.Birthdate = birthdate; 
+    }
 
     public int Age 
     {

@@ -7,13 +7,82 @@ namespace CSharpIntermediate
     {
       static void Main(string[] args)
       {
-        createPerson();
+        createText();
+      }
+
+      static void createText()
+      {
+        var myText = new Text();
+        myText.Width = 100;
+        myText.Copy();
+      }
+
+      static void createPost()
+      {
+        var myPost = new Post();
+        bool loop = true;
+        while (loop)
+        {
+          System.Console.WriteLine("Enter upvote, downvote, seevote, or end");
+          string answer = Console.ReadLine();
+          switch(answer)
+          {
+            case "upvote":
+            {
+              myPost.Upvote();
+              break;
+            }
+            case "downvote":
+            {
+              myPost.Downvote();
+              break;
+            }
+
+            case "seevote":
+            {
+              myPost.Seevotes();
+              break;
+            }
+            case "end":
+            {
+              loop = false;
+              break;
+            }
+            default :
+            {
+              break;
+            }
+          }
+        }
+      }
+
+      static void makeStopwatch()
+      {
+        var myStopwatch = new Stopwatch();
+        myStopwatch.Start();
+        System.Console.WriteLine("type stop to stop or restart to restart.");
+        string answer = Console.ReadLine();
+        if (answer == "stop")
+        {
+          myStopwatch.Stop();
+        }
+        if (answer == "restart")
+        {
+          myStopwatch.Start();
+        }
+      }
+
+      static void createCookie()
+      {
+        var cookie = new HttpCookie();
+        cookie["name"] = "Cookie";
+        System.Console.WriteLine(cookie["name"]);
       }
 
       static void createPerson()
       {
-        var myPerson = new Person();
-        myPerson.Birthdate = new DateTime(1933, 1, 22);
+        var myPerson = new Person(new DateTime (1933, 1,22));
+        // myPerson.Birthdate = new DateTime(1933, 1, 22);h
         System.Console.WriteLine(myPerson.Age);
       }
 
