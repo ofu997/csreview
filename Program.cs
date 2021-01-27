@@ -7,7 +7,42 @@ namespace CSharpIntermediate
     {
       static void Main(string[] args)
       {
-        createText();
+        // createWriting();
+      }
+
+      static void boxingExamples()
+      {
+        // boxing 
+        int number = 10;
+        object obj = number;
+
+        // unboxing
+        object obj2 = 10;
+        int number2 = (int) obj; 
+      }
+
+      static void castingUpAndDownExamples()
+      {
+        Writing writing = new Writing();
+        // Upcasting example. 
+        Shape shape = writing; 
+
+        writing.Width = 200; 
+        shape.Width = 100; 
+        // 100
+        System.Console.WriteLine(writing.Width);
+
+        // Downcasting example
+        // shape2 is of type Writing
+        Shape shape2 = new Writing();
+        // convert shape2 to type Writing
+        Writing writing2 = (Writing) shape2; 
+      }
+
+      static void createCar()
+      {
+        var car = new Automobile("ndf8709h");
+        
       }
 
       static void createText()
