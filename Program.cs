@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections; 
 using System.Collections.Generic;
 using System.Threading;
 namespace CSharpIntermediate
@@ -7,7 +8,7 @@ namespace CSharpIntermediate
     {
       static void Main(string[] args)
       {
-        // createWriting();
+        AbstractShape.createAbstract();
       }
 
       static void boxingExamples()
@@ -19,6 +20,21 @@ namespace CSharpIntermediate
         // unboxing
         object obj2 = 10;
         int number2 = (int) obj; 
+
+        var list = new ArrayList();
+        // Add takes object. Adding value type like 1 causes 'boxing', which has a performance penalty
+        list.Add(1);
+        // string type is a reference, doesn't cause 'boxing'
+        list.Add("me");
+        // structure is a value type, causes 'boxing' 
+        list.Add(DateTime.Today);
+
+        // can't cast
+        var number3 = (int) list[1];
+
+        var anotherList = new List<int>();
+        var names = new List<string>();
+        names.Add("nn"); 
       }
 
       static void castingUpAndDownExamples()
