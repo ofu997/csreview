@@ -15,6 +15,11 @@ namespace CSharpIntermediate
 
       return sum; 
     }
+    public static void useParams()
+    {
+      // var calculator = new Calculator();
+      Console.WriteLine(Calculator.Add(1,2,3,4));   
+    }
   }
 
   public class Point
@@ -43,6 +48,20 @@ namespace CSharpIntermediate
         throw new ArgumentNullException("newLocation");
 
       Move(newLocation.X, newLocation.Y);
+    }
+
+    public static void UsePoints()
+    {
+      try
+      {
+        var point = new Point(10, 20);
+        point.Move(new Point(40, 60));
+        Console.WriteLine("point is at ({0}, {1})", point.X, point.Y);
+      }
+      catch (Exception)
+      {
+        System.Console.WriteLine("An unexpected error occurred.");
+      }
     }
   }
 }

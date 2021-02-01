@@ -34,6 +34,14 @@ namespace CSharpIntermediate
 
 
     private bool _hasStarted { get; set; }
+
+    private bool _hasStopped { get; set; }
+
+    public Stopwatch()
+    {
+      _hasStopped = false; 
+    }
+
     public void Start()
     {
       if (_hasStarted == true) 
@@ -48,9 +56,30 @@ namespace CSharpIntermediate
     public void Stop()
     {
       _stop = DateTime.Now;
+      _hasStopped = false;
         var timespan = _stop - _start; 
         var seconds = timespan.Seconds; 
         System.Console.WriteLine("{0} seconds", seconds);
+    }
+
+    public static void makeStopwatch()
+    {
+      var myStopwatch = new Stopwatch();
+      bool run = true;
+      while (run)
+      {
+        System.Console.WriteLine("type 'start'to start or 'stop' to stop.");
+        string answer = Console.ReadLine();
+        if (answer == "start")
+        {
+          myStopwatch.Start();
+        }
+        if (answer == "stop")
+        {
+          myStopwatch.Stop();
+          run = false;
+        }
+      }
     }
   }
 }

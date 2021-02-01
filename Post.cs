@@ -42,5 +42,44 @@ namespace CSharpIntermediate
     {
       System.Console.WriteLine(_votes);
     }
+
+    public static void createPost()
+    {
+      var myPost = new Post();
+      bool loop = true;
+      while (loop)
+      {
+        System.Console.WriteLine("Enter upvote, downvote, seevote, or end");
+        string answer = Console.ReadLine();
+        switch(answer)
+        {
+          case "upvote":
+          {
+            myPost.Upvote();
+            break;
+          }
+          case "downvote":
+          {
+            myPost.Downvote();
+            break;
+          }
+
+          case "seevote":
+          {
+            myPost.Seevotes();
+            break;
+          }
+          case "end":
+          {
+            loop = false;
+            break;
+          }
+          default :
+          {
+            break;
+          }
+        }
+      }
+    }
   }
 }

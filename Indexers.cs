@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 namespace CSharpIntermediate 
 {
-  public class HttpCookie {
+  public class HttpCookie 
+  {
     private readonly Dictionary<string, string> _dictionary;
     public DateTime Expiry { get; set; }
 
@@ -16,6 +17,13 @@ namespace CSharpIntermediate
     {
       get { return _dictionary[key]; }
       set { _dictionary[key] = value; }
+    }
+
+    public static void createCookie()
+    {
+      var cookie = new HttpCookie();
+      cookie["name"] = "Cookie";
+      System.Console.WriteLine(cookie["name"]);
     }
   }
 }

@@ -30,5 +30,12 @@ namespace CSharpIntermediate
     {
       System.Console.WriteLine("We added a link to: " + url);
     }
+
+    public static void createText()
+    {
+      var myText = new Text();
+      myText.Width = 100;
+      myText.Copy();
+    }
   }
 }

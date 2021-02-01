@@ -58,12 +58,13 @@ namespace CSharpIntermediate
     {
       string objString = (string) obj; 
       StackList.Add(objString);
-      System.Console.WriteLine(StackList);
+      // System.Console.WriteLine(StackList[0]);
     }
 
     public void Pop()
     {
-      StackList.RemoveAt(0);
+      var index = StackList.Count - 1; 
+      StackList.RemoveAt(index);
       System.Console.WriteLine(StackList);
     }
 
@@ -79,7 +80,7 @@ namespace CSharpIntermediate
         myStack.Push("1st");
         myStack.Push("2nd");
         myStack.Push("3rd");
-        System.Console.WriteLine(myStack.StackList);
+        System.Console.WriteLine(myStack.StackList[myStack.StackList.Count - 1]);
 
       }
   }

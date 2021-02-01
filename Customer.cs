@@ -31,6 +31,15 @@ namespace CSharpIntermediate
     {
 
     }
+
+    public static void createCustomer()
+    {
+      // create an object with an object initializer 
+      // (creates an object without the need to call a constructor)
+      var myCustomer = new Customer { Id=3, Name="Francine" };
+
+      Console.WriteLine(myCustomer.Name);
+    }
   }
 
   // var myCustomer = new Customer { Id=3, Name="Francine"}

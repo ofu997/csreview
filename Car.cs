@@ -42,5 +42,10 @@ namespace CSharpIntermediate
         {
             return instances;
         }
+
+        public static void createCar()
+        {
+          var car = new Automobile("ndf8709h");
+        }
     }    
 }
