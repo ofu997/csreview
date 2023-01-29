@@ -1,7 +1,41 @@
 using System;
+using System.Collections.Generic;
 
 namespace CSharpIntermediate
 {
+    public class FibonacciSequence
+    {
+
+        public static List<int> sequence = new List<int>(); 
+
+        public static int Fibonacci()
+        {
+            int a = 0;
+            int b = 1;
+
+            Console.WriteLine("How many fibonucci numbers?");
+            string fibString = Console.ReadLine();            
+            int n =int.Parse(fibString);
+
+            // In N steps compute Fibonacci sequence iteratively.
+            for (int i = 1; i <= n; i++)
+            {
+                if (i == 1)
+                {
+                    sequence.Add(a);
+                }
+                else // 2nd number and beyond
+                {
+                    int temp = a;
+                    a = b;
+                    b = temp + b;
+                    sequence.Add(a);
+                }
+            }
+            return a;
+        }
+    }
+
     class Fibonacci
     {
         public static void FibCalculate()

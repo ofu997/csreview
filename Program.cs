@@ -6,8 +6,8 @@ namespace CSharpIntermediate
 {
     class Program
     {
-      static void Main(string[] args)
-      {
+      //static void Main(string[] args)
+      //{
         // static methods from Classes, Interfaces, Object-oriented couse
         
         // AbstractShape.createAbstract();
@@ -26,16 +26,16 @@ namespace CSharpIntermediate
         // Stopwatch.makeStopwatch();
         // Text.createText();
         // VideoEncoder.createEncoder();
-      }
+      //}
 
-      /*
-      from object oriented programming course
+      
+      //from object oriented programming course
       static void Main(string[] args)
       {
           bool playagain=true;
           while(playagain)
           {
-              Console.WriteLine("Fibonacci, prime, school, garbage collection, or interface program?(f/p/s/i/gc)");
+              Console.WriteLine("Fibonacci, iso, prime, school, garbage collection, or interface program?(f/iso/p/s/i/gc)");
               string answer = Console.ReadLine();
               switch(answer)
               {
@@ -76,6 +76,17 @@ namespace CSharpIntermediate
                   //     Algos.InsertionSort();
                   //     break; 
                   // }
+                  case "fib":
+                  {
+                    FibonacciSequence.Fibonacci();
+                    break; 
+                  }
+                  case "iso":
+                  {
+                    var result = Isomorphic.IsomorphicFunction();
+                    Console.WriteLine(result);
+                    break; 
+                  }
                   default :
                   {
                       break;
@@ -92,6 +103,6 @@ namespace CSharpIntermediate
                   playagain=false; 
               }
           }
-      } // main */
+      } // main 
     } // Program
 } // namespace

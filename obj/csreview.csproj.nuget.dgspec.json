@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\csreview.csproj": {}
+    "C:\\Users\\ofu23\\Documents\\Projects\\c-sharp-review\\csreview.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\csreview.csproj": {
+    "C:\\Users\\ofu23\\Documents\\Projects\\c-sharp-review\\csreview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\csreview.csproj",
+        "projectUniqueName": "C:\\Users\\ofu23\\Documents\\Projects\\c-sharp-review\\csreview.csproj",
         "projectName": "csreview",
-        "projectPath": "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\csreview.csproj",
+        "projectPath": "C:\\Users\\ofu23\\Documents\\Projects\\c-sharp-review\\csreview.csproj",
         "packagesPath": "C:\\Users\\ofu23\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ofu23\\Documents\\Projects\\csreview\\obj\\",
+        "outputPath": "C:\\Users\\ofu23\\Documents\\Projects\\c-sharp-review\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ofu23\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ofu23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
